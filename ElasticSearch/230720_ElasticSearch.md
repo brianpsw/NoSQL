@@ -27,3 +27,19 @@ Ingest pipelines는 Elasticsearch에 인덱싱하기 전에 일반적인 변형�
 #### Logstash
 
 Logstash는 실시간 파이프라인 능력을 갖춘 데이터 모음 엔진입니다. 여러 소스에서 오는 데이터를 정규화 및 통일시켜 원하는 저장소에 저장할 수 있습니다. Logstash는 넓은 범위의 입력과 필터, 그리고 아웃풋 플러그인 그리고 많은 네이티브 코덱을 제공하여 데이터 수집 과정을 단순화합니다.
+
+### Store
+
+#### Elasticsearch
+
+Elasticsearch는 Elastic Stack의 중심부에 있는 분산형 검색, 분석 엔진입니다. 구조화 된 텍스트, 비구조화 된 텍스트, 숫자값, 지리 데이터 모두 Elasticsearch를 통해 효율 적으로 저장하고 빠르게 검색할 수 있도록 인덱싱 됩니다. Elasticsearch는 Elasticsearch에 저장된 데이터에 접근할 수 있는 REST API를 제공합니다.
+
+### Consume
+
+#### Kibana
+
+Kibana는 Elasticsearch 데이터를 이용하는 도구이자 Elastic Stack을 관리하는 도구입니다. Kibana를 이용해 데이터를 분석하고 시각화할 수 있습니다.
+
+#### Elasticsearch clients
+
+Clients는 API 요청과 응답을 관리하는 데 편리한 방법을 제공합니다. 
